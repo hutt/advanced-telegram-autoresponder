@@ -24,6 +24,7 @@ The autoresponder allows scheduled activiation/deactivation (optionally), suppor
    cd advanced-telegram-autoresponder
    ```
 3. Set Up the Environment
+   
    Create a `.env` file in the project root directory and fill in the API credentials:
    ```text
    # Telegram API credentials
