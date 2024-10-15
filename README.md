@@ -44,8 +44,10 @@ The autoresponder allows scheduled activiation/deactivation (optionally), suppor
    ```
 5. Start the bot using your system's Python interpreter:
    ```bash
-   python bot.py
+   python autoresponder.py
    ```
+
+   If you've set up 2FA and/or a login password, you'll be prompted for a verification code and/or the password.
 
 
 ## Using the Autoresponder Bot
@@ -72,18 +74,6 @@ You can configure the bot in a chat with yourself using the following commands:
 - `/showconfig`: Display current configuration settings.
 - `/reset`: Reset all settings to default; requires confirmation with `/confirmreset`.
 - `/help`: Provide information about available commands and their usage.
-
-
-## Security Notes
-
-- Keep your API credentials secure and do not share them publicly.
-- Use environment variables to manage sensitive information.
-
-
-## Troubleshooting
-
-- Ensure your API credentials are correct in the `.env` file.
-- Check logs in the `logs/` directory for error messages.
 
 
 ## License
